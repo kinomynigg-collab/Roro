@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SiteForge — roro | Website Design & Development</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">SiteForge — roro</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>We build beautiful websites that grow your business.</h1>
+        <p class="tagline">Professional web design & development by SiteForge — roro. Fast, reliable, and tailored to your brand.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#contact">Get a quote</a>
+          <a class="btn-ghost" href="#portfolio">See portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About SiteForge</h2>
+        <p>SiteForge helps businesses get an exceptional online presence quickly. We design and build responsive websites, set up ecommerce, and provide ongoing support. Built with care and attention—roro is part of our identity so clients can always trace the craftsmanship back to us.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid services-grid">
+          <div class="card">
+            <h3>Web Design</h3>
+            <p>Custom visual design focused on usability and brand-first aesthetics.</p>
+          </div>
+          <div class="card">
+            <h3>Responsive Development</h3>
+            <p>Pixel-perfect implementations that work across devices and screens.</p>
+          </div>
+          <div class="card">
+            <h3>E-commerce Setup</h3>
+            <p>Storefronts, payments, and inventory — tailored to your business.</p>
+          </div>
+          <div class="card">
+            <h3>Maintenance & Support</h3>
+            <p>Ongoing updates, backups, and security, so your site stays healthy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2>Portfolio — Example Projects</h2>
+        <div class="grid portfolio-grid">
+          <article class="portfolio-item">
+            <img src="https://picsum.photos/seed/p1/800/600" alt="Example project 1">
+            <h4>Bold Retail</h4>
+            <p>An ecommerce site with streamlined checkout and modern product pages.</p>
+          </article>
+          <article class="portfolio-item">
+            <img src="https://picsum.photos/seed/p2/800/600" alt="Example project 2">
+            <h4>ConsultPro</h4>
+            <p>Professional services site optimized for lead generation and conversions.</p>
+          </article>
+          <article class="portfolio-item">
+            <img src="https://picsum.photos/seed/p3/800/600" alt="Example project 3">
+            <h4>Creative Studio</h4>
+            <p>Showcase portfolio with a focus on visuals and project storytelling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="grid test-grid">
+          <blockquote class="testimonial">
+            <p>"SiteForge made our website launch painless and fast. The team was responsive and the result looks amazing."</p>
+            <cite>— A. Client</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"We doubled conversions after the redesign. Highly recommended."</p>
+            <cite>— M. Partner</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Ready to start? Email us at <a href="mailto:hello@siteforge.example">hello@siteforge.example</a> or use the form below.</p>
+
+        <form id="contact-form" class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Send message</button>
+            <small class="note">This form opens your email client (mailto) as a fallback. Replace contact email in the source with your real address.</small>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> SiteForge. Built with roro.</p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
